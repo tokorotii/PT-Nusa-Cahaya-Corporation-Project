@@ -1,0 +1,28 @@
+body {
+  font-family: "Reem Kufi", sans-serif;
+  /* background-color: #eaded2; */
+}
+
+card {
+  border-style: none;
+}
+
+.card1 {
+  background-color: rgba(0, 0, 0, 0.82);
+  border-radius: 30px;
+}
+
+.card2 {
+  background-color: black;
+  border-radius: 30px;
+}
+
+.imgs {
+  width: 215px;
+}
+
+@media (max-width: 768px) {
+  .imgs {
+    width: 100px;
+  }
+}
