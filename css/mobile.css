@@ -1,0 +1,70 @@
+body {
+  font-family: "Reem Kufi", sans-serif;
+}
+
+nav {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 25px;
+}
+.card1 {
+  background-color: #6b6fda;
+  color: white;
+  border-radius: 30px;
+}
+.btn-card {
+  background-color: #80a2e3;
+  color: white;
+  border-radius: 10px;
+}
+.card2 {
+  background-color: #dac86b;
+  color: white;
+  border-radius: 30px;
+}
+
+.card3 {
+  background-color: #6bda8a;
+  color: white;
+  border-radius: 30px;
+}
+
+.img-lg {
+  display: none;
+}
+.img1 {
+  width: 100px;
+}
+
+footer {
+  background-color: #c4c4c4;
+  font-weight: 600;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .img-lg {
+    display: inline;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 72px;
+  }
+  .img1 {
+    width: 300px;
+  }
+  .img-card-1 {
+    width: 400px;
+  }
+  .content-card {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
