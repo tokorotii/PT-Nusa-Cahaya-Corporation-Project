@@ -1,12 +1,6 @@
 body {
   font-family: "Reem Kufi", sans-serif;
 }
-
-nav {
-  font-weight: 500;
-  font-size: 18px;
-}
-
 .title {
   font-weight: 500;
   font-size: 25px;
@@ -36,17 +30,8 @@ nav {
 .img-lg {
   display: none;
 }
-.img1 {
+.img-logo {
   width: 100px;
-}
-
-footer {
-  background-color: #c4c4c4;
-  font-weight: 600;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -57,7 +42,7 @@ footer {
     font-weight: 700;
     font-size: 72px;
   }
-  .img1 {
+  .img-logo {
     width: 300px;
   }
   .img-card-1 {
